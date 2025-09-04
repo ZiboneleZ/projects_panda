@@ -1,1 +1,1 @@
-# projects_panda
+# panda_projects
