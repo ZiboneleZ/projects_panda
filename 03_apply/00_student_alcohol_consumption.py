@@ -45,7 +45,7 @@ def multiplier(x):
         return x * 10
     return x
 
-multiplied_dataset = student_alcohol.applymap(multiplier)
+multiplied_dataset = student_alcohol.map(multiplier)
 print("\n=== Dataset With Numbers Multiplied By 10 ===")
-print(multiplied_dataset)
+print(multiplied_dataset.head())
 
